@@ -250,12 +250,7 @@ html, body {
   flex: 0 0 12px;
 }
 
-/* Keep the ruler full-height for accurate scroll mapping, but reduce its visual footprint. */
-.metric-ruler-track {
-  transform: scaleX(0.52);
-  transform-origin: right center;
-}
-
+/* Keep ruler labels at native width; compact the graduation marks themselves. */
 .metric-ruler-progress-line {
   width: 109%;
 }

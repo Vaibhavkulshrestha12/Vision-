@@ -483,8 +483,8 @@ export default function MetricRulerSlider() {
               <div
                 className={`transition-colors ${
                   isMajor
-                    ? "w-5 sm:w-7 h-[1.5px] bg-white/70"
-                    : "w-2.5 sm:w-3.5 h-[1px] bg-white/25"
+                    ? "w-5 sm:w-6 h-[1.5px] bg-white/70"
+                    : "w-2.5 sm:w-3 h-[1px] bg-white/25"
                 }`}
               />
             </div>
